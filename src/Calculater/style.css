@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+}
+body {
+  background-color: antiquewhite;
+}
+.main-section {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.main-body {
+  margin: 20% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-box {
+  border: 1px solid #1976d2;
+  padding: 10px;
+  border-radius: 10px;
+}
+.title {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  color: #1976d2;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputs > input {
+  margin: 5px 0px;
+}
+input {
+  color: #1976d2;
+  border-radius: 5px;
+  border: 2px solid #1976d2;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+input:focus {
+  border: 2px solid blue;
+}
+.oprations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.op-btn {
+  background: white;
+  font-size: 30px !important;
+  font-weight: bold !important;
+
+  border-radius: 5px !important;
+  text-align: center !important;
+  margin: 10px !important;
+  padding: 3px 10px !important;
+  cursor: pointer !important ;
+}
+
+.outputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.history-box {
+}
+.history-box > .title {
+  background-color: white;
+  border: 2px solid #1976d2;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history-box > .title > span {
+  float: right;
+}
+.history-box > ul {
+  background-color: white;
+
+  margin-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+  margin: -15px 0px 0px 0px;
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  /* border: 2px solid #1976d2; */
+}
+.history-box > ul > li {
+  border-bottom: 1px solid lightgrey;
+}
+
+/* phone */
+@media screen and (max-width: 450px) and (min-width: 300px) {
+  body {  
+    background-color: aliceblue;
+  }
+}
